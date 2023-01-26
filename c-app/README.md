@@ -53,7 +53,7 @@ in the `LICENSE` file.
 ### Building the Docker image
 ```bash
 $ docker image build -t <image-name> .
-$ docker run -p 80:80 -d <image-name>
+$ docker run -p 1600:1600 -d <image-name>
 ```
 
 ### Push to DockerHub
